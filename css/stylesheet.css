@@ -69,7 +69,7 @@ header {
                0px -1px 0px #000000;
   letter-spacing: -1px;
   -webkit-font-smoothing: antialiased;
-  content: "-";
+  content: "";
   z-index: 1;
   position: absolute;
   top: 0px;
