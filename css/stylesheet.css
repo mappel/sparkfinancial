@@ -48,7 +48,7 @@ header {
   line-height: 1.5;
   font-weight: bold;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  color: #b5e853;
+  color: #0beef0;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
                0 0 5px rgba(181, 232, 83, 0.1),
                0 0 10px rgba(181, 232, 83, 0.1);
@@ -221,9 +221,9 @@ td {
 hr {
   height: 0;
   border: 0;
-  border-top: 5px solid #b5e853;
-  border-bottom: 5px solid #b5e853;
-  color: #b5e853;
+  border-top: 5px solid;
+  border-bottom: 5px solid;
+  color: #abacab;
 }
 
 /* Buttons
