@@ -1,8 +1,8 @@
 body {
   margin: 0;
   padding: 0;
-  background: #151515; /*  url("../images/bkg.png") 0 0; */
-  color: #eaeaea;
+  background: #000000; /*  url("../images/bg.png") 0 0; */
+  color: #beefee;
   font: 16px;
   line-height: 1.5;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
@@ -64,7 +64,6 @@ header {
   line-height: 1.5;
   font-weight: bold
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  color: #800000;
   text-shadow: 0px 1px 0px #000000,
                0px -1px 0px #000000;
   letter-spacing: -1px;
@@ -80,7 +79,6 @@ header {
   line-height: 1.5;
   font-weight: bold;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  color: #151515;
   letter-spacing: -1px;
   position: absolute;
   z-index: -1;
@@ -93,7 +91,6 @@ header h1 {
   margin: 0 0 0 -40px;
   font-weight: bold;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  color: #b5e853;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
                0 0 5px rgba(181, 232, 83, 0.1),
                0 0 10px rgba(181, 232, 83, 0.1);
@@ -111,7 +108,6 @@ header h1:before {
 header h2 {
   font-size: 18px;
   font-weight: 300;
-  color: #666;
 }
 
 #downloads .btn {
@@ -134,7 +130,6 @@ section img {
 h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  color: #b5e853;
   Letter-spacing: -0.03em;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
                0 0 5px rgba(181, 232, 83, 0.1),
@@ -183,7 +178,6 @@ ul li:before {
   content: ">>";
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
   font-size: 13px;
-  color: #b5e853;
   margin-left: -37px;
   margin-right: 21px;
   line-height: 16px;
@@ -227,7 +221,8 @@ td {
 hr {
   height: 0;
   border: 0;
-  border-bottom: 1px dashed #b5e853;
+  border-top: 5px solid #b5e853;
+  border-bottom: 5px solid #b5e853;
   color: #b5e853;
 }
 
